@@ -1,3 +1,9 @@
+ (cd "$(git rev-parse --show-toplevel)" && git apply --3way <<'EOF' 
+diff --git a/README.md b/README.md
+index f15f328366132fe65acb8f1711c378bcf9dbe496..7239a20407fd683e30db7176a3661713cce0dfdc 100644
+--- a/README.md
++++ b/README.md
+@@ -1,2 +1,74 @@
 -# error.io
 -error.io is an intelligent assistant that helps developers understand and fix coding errors using AI APIs. It supports multiple languages, frameworks, and provides real-time solutions.
 +# ERROR Assistant
